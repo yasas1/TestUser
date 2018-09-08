@@ -24,7 +24,7 @@
 
             <!-- "{{ url('users')}}" -->
     
-        <form method = "post" action = "/users" >
+        {{-- <form method = "post" action = "/users" >
             {{csrf_field()}}
                 <label class="lb" > UserName :</label><br>
                 <input class="form-control" type="text" name="username" placeholder="username"><br>
@@ -38,7 +38,22 @@
                 <input type="submit" class="btn btn-primary" >
                 </div>
     
-            </form>
+            </form> --}}
+
+            {!! Form::open() !!}
+                    <label class="lb" > UserName :</label><br>
+                    <input class="form-control" type="text" name="username" placeholder="username"><br>
+            
+                    <label class="lb" > Password :</label><br>
+                    <input class="form-control" type="password" name="password" placeholder="password" ><br>
+        
+                    <label class="lb" > Email : </label><br>
+                    <input class="form-control"  type="text" name="email" placeholder="email" > <br>
+                           
+                    <input type="submit" class="btn btn-primary" >
+                    </div>
+        
+                </form>
     
     </div>
     
