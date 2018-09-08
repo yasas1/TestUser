@@ -42,8 +42,8 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'host' => 'localhost',
-            'port' => '3306',
-            'database' => 'wamp',
+            'port' => '3307',
+            'database' => 'test',
             'username' =>  'root',
             'password' =>  '',
             'unix_socket' => env('DB_SOCKET', ''),

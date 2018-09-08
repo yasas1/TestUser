@@ -19,3 +19,7 @@ Route::resource('users','UserController');
 
 
 //Route::post('/store','UsersController@store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
