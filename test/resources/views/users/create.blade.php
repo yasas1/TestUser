@@ -42,8 +42,8 @@
         
         {!! Form::open(['method'=> 'POST','action'=>'UserController@store']) !!}
 
-            <label  > UserName :</label>
-            {!! Form::text('username',null,['class'=>'form-control','placeholder'=>'username']) !!}
+            <label  > Name :</label>
+            {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Name']) !!}
     
             <label > Password :</label><br>
             {!! Form::password('password',['class'=>'form-control','placeholder'=>'password']) !!}

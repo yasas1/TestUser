@@ -42,14 +42,14 @@ class UserController extends Controller
         //return $request->all();
 
         $this->validate($request , [
-            'username' => 'required',
+            'name' => 'required',
             'password' => 'required',
             'email' => 'required',
         ]);
 
         $user = new User;
 
-        $user-> username = $request->username;
+        $user-> name = $request->name;
         $user-> password = $request->password;
         $user-> email = $request->email;
 

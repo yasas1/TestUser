@@ -45,7 +45,7 @@
     {{csrf_field()}}
 
     <label  > UserName :</label>
-    {!! Form::text('username',null,['class'=>'form-control','placeholder'=>'username']) !!}
+    {!! Form::text('name',null,['class'=>'form-control','placeholder'=>'Name']) !!}
 
 
     <label > Email : </label><br>
