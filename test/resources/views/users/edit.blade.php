@@ -57,7 +57,7 @@
     
 
     {!! Form::close() !!}
-    <br>
+    
 
     {{-- <form method = "post" action = "/users/{{$user->id}}" >
 
